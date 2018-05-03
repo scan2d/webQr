@@ -3,7 +3,9 @@
 The following javascript code will generate QR code image for the current webpage. Suggest using it on the header of the webpage.
 
 ```javascript
-<a href="javascript:(function(){var%20qrSrc='https://chart.googleapis.com/chart%3Fchs=250x250%26cht=qr%26chl='+encodeURIComponent(document.location.href),overlay=document.createElement('div'),os=overlay.style,img=document.createElement('img');img.src=qrSrc;os.position='fixed';os.zIndex=1000;os.width='100%25';os.height='100%25';os.top=0;os.left=0;os.textAlign='center';os.backgroundColor='rgba(0,0,0,0.9)';img.style.marginTop='100px';overlay.appendChild(img);document.body.appendChild(overlay);overlay.addEventListener('click',function(){document.body.removeChild(overlay);})})();"><img border="0" src="http://scan2d.com/tools/share-icon.png" width="30" height="30"></a>
+<a href="javascript:(function(){var%20qrSrc='https://chart.googleapis.com/chart%3Fchs=250x250%26cht=qr%26chl='+encodeURIComponent(document.location.href),overlay=document.createElement('div'),os=overlay.style,img=document.createElement('img');img.src=qrSrc;os.position='fixed';os.zIndex=1000;os.width='100%25';os.height='100%25';os.top=0;os.left=0;os.textAlign='center';os.backgroundColor='rgba(0,0,0,0.9)';img.style.marginTop='100px';overlay.appendChild(img);document.body.appendChild(overlay);overlay.addEventListener('click',function(){document.body.removeChild(overlay);})})();">
+     <img border="0" src="http://scan2d.com/tools/share-icon.png" width="30" height="30">
+ </a>
 ```
 
 ## Online Demo   
